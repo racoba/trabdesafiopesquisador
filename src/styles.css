@@ -1,18 +1,21 @@
+
 .nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
     background-color: #12A672;
+    height: 6vh;
 }
 
 .botoesNav{
-    background-color: #12A672 !important;
+    background-color: #12A672;
+    color: white;
+    font-size: 22px;    
 }
 
+body {
+    background: #eee;
+  }
+  
+ 
 
-.logo{
-position: absolute;
-width: 134px;
-height: 102px;
-left: 27px;
-top: 8px;
-
-background: url(logodesafio.png);
-}

@@ -5,9 +5,23 @@ import Nav from '../Nav';
 
 export default function Contato() {
     return (
-        <>
+        < >
             <Nav />
-            <div>AQUI É A PAGINA DE Contato</div>
+            <div >
+               
+
+
+
+            AQUI EH A PAGINA DE CONTATO
+
+
+
+
+
+
+
+               
+            </div>
 
         </>
     );

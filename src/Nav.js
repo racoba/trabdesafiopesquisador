@@ -7,24 +7,28 @@ import './styles.css'
 
 function Nav() {
 
+  
+
   return (
-    <>
+    <Grid className='bigdiv'>
       <Grid className='nav'>
-        <Button className='botoesNav' component={Link} to="/" variant="contained" >
-          HOME
-        </Button>
-        <Button className='botoesNav' component={Link} to="/parcerias" variant="contained" >
-          parcerias
-        </Button>
-        <Button className='botoesNav' component={Link} to="/sobrenos" variant="contained" >
-          Sobre Nós
-        </Button>
-        <Button className='botoesNav'component={Link} to="/contato" variant="contained" >
-          contato
-        </Button>
+
+
+        <h3 className='botoesNav' variant="contained" >
+          <Link style={{textDecoration:"none",color:"white"}} to="/">HOME</Link>
+        </h3>
+        <h3  className='botoesNav' variant="contained" >
+        <Link style={{textDecoration:"none",color:"white"}} to="/parcerias">PARCERIAS</Link>
+        </h3>
+        <h3 className='botoesNav'  variant="contained" >
+        <Link style={{textDecoration:"none",color:"white"}} to="/sobrenos">SOBRE NÓS</Link>
+        </h3>
+        <h3 className='botoesNav'  variant="contained" >
+        <Link style={{textDecoration:"none",color:"white"}} to="/contato">CONTATO</Link>
+        </h3>
       </Grid>
 
-    </>
+    </Grid>
   );
 }
 
