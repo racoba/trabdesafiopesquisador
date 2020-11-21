@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../Nav';
 import { Grid } from '@material-ui/core';
 import './styles.css'
+import 'fontsource-roboto'
 
 
 
@@ -15,6 +16,7 @@ export default function SobreNos() {
                     marginTop: "7vh",
                     marginRight: "130vh",
                     fontSize: "75px",
+                    fontFamily:"roboto",
                     textDecoration: "underline"
                 }}>Sobre Nós</Grid>
 
