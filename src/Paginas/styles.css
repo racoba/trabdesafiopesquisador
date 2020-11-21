@@ -3,8 +3,10 @@
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 93.3vh 195.1vh;
+    border-width: 0 0 100vh 100vw;
     border-color: transparent transparent #12A672 transparent;
+    position: absolute ;
+    
 }
 
 .entire-page{
@@ -17,8 +19,9 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    
 }
-/* //1000px 1887px */
+
 
 
 .boxmodel {
@@ -50,9 +53,14 @@ border-radius: 20px;
     align-items: center;
     text-align: justify;
     margin-top: 60px;
+    position: relative;
+    /* margin-bottom: 100px; */
     
 }
 
+
+
+    
 
 
 

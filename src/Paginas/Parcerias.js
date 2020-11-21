@@ -16,7 +16,7 @@ import Triangulao from '../Images/triangulo.png'
 const useStyles = makeStyles({
     root: {
         maxWidth: 345,
-        
+
     },
     media: {
         height: 180,
@@ -29,7 +29,8 @@ export default function Parcerias() {
     return (
         <div className='entire-page' >
             <Nav />
-            <Grid container className='big-container' style={{backgroundImage: `url(require(mages/triangulo.png))`}}>
+            <div className='triangle-bottom-right'/>
+            <Grid container className='big-container'>
                 <Grid item style={{
                     marginTop: "7vh",
                     marginRight: "130vh",
@@ -37,6 +38,10 @@ export default function Parcerias() {
                     fontFamily: "roboto",
                     textDecoration: "underline"
                 }}>Parcerias</Grid>
+
+                {/* <img src={Triangulao} id='triangulao'/> */}
+                
+
                 <Grid container id='cards-grid'>
 
                     <Grid item>
@@ -57,7 +62,7 @@ export default function Parcerias() {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                            <Button size="small" color="primary">
+                                <Button size="small" color="primary">
                                     Visite-os
                              </Button>
                             </CardActions>
@@ -84,7 +89,7 @@ export default function Parcerias() {
                                 <Button size="small" color="primary">
                                     Visite-os
                              </Button>
-                                
+
                             </CardActions>
                         </Card>
                     </Grid>
@@ -106,7 +111,7 @@ export default function Parcerias() {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                            <Button size="small" color="primary">
+                                <Button size="small" color="primary">
                                     Visite-os
                              </Button>
                             </CardActions>
@@ -134,7 +139,7 @@ export default function Parcerias() {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                            <Button size="small" color="primary">
+                                <Button size="small" color="primary">
                                     Visite-os
                              </Button>
                             </CardActions>
@@ -158,7 +163,7 @@ export default function Parcerias() {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                            <Button size="small" color="primary">
+                                <Button size="small" color="primary">
                                     Visite-os
                              </Button>
                             </CardActions>
@@ -182,14 +187,14 @@ export default function Parcerias() {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                            <Button size="small" color="primary">
+                                <Button size="small" color="primary">
                                     Visite-os
                              </Button>
                             </CardActions>
                         </Card>
                     </Grid>
                 </Grid>
-
+                
 
 
 
@@ -201,6 +206,7 @@ export default function Parcerias() {
 
 
             </Grid>
+            
         </div>
     );
 }
