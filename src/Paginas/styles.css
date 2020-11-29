@@ -1,9 +1,39 @@
-.triangle-bottom-right {
+.triangle-bottom-right-home {
     display: inline-block;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 100vh 100vw;
+    border-width: 0 0 140vh 95.7vw;
+    border-color: transparent transparent #12A672 transparent;
+    position: absolute ;
+    
+}
+.triangle-bottom-right-parcerias {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 105vh 95.7vw;
+    border-color: transparent transparent #12A672 transparent;
+    position: absolute ;
+    
+}
+.triangle-bottom-right-sobre {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 100vh 95.7vw;
+    border-color: transparent transparent #12A672 transparent;
+    position: absolute ;
+    
+}
+.triangle-bottom-right-contato {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 100vh 95.7vw;
     border-color: transparent transparent #12A672 transparent;
     position: absolute ;
     
@@ -15,6 +45,7 @@
 }
 
 .big-container{
+    position: relative !important;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -25,13 +56,15 @@
 
 
 .boxmodel {
-
+position: relative ;
 width: 120vh;
 height: 60vh;
 margin-bottom: 5vh;
 margin-top: 5vh;
 background: linear-gradient(180deg, rgba(24, 220, 152, 0.5) 91.67%, rgba(24, 220, 152, 0) 100%);
 border-radius: 20px;
+
+
     
 }
 
@@ -41,6 +74,7 @@ border-radius: 20px;
     font-size: 20;
     margin: 4vh;
     text-align: justify;
+
     
 }
 
@@ -59,7 +93,10 @@ border-radius: 20px;
 }
 
 
-
+#divImage{
+    width:40000px !important
+    ;
+}
     
 
 

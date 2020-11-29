@@ -10,16 +10,19 @@ export default function Contato() {
     return (
         <div className='entire-page' >
             <Nav />
+            <div className='triangle-bottom-right-contato' />
             <Grid container className='big-container'>
                 <Grid item style={{
                     marginTop: "7vh",
                     marginRight: "130vh",
                     fontSize: "75px",
                     fontFamily: "roboto",
-                    textDecoration: "underline"
-                }}>Fale Conosco</Grid>
+                    textDecoration: "underline",
+                }}>Contato</Grid>
 
-                <div class="boxmodel">
+
+                <Grid item class="boxmodel" style={{ fontSize: 25 }}>
+                <div >
                     <h3 class="box_content">
                         danielmarinho8@hotmail.com
                     </h3>
@@ -42,35 +45,19 @@ export default function Contato() {
                         contato@senaicimatec.com.br
                     </h3>
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                </Grid>
+                
+              
+                
 
 
             </Grid>
-        </div >
+
+        </div>
+
+
+
+
+        
     );
 }

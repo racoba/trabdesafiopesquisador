@@ -11,7 +11,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import 'fontsource-roboto';
-import Triangulao from '../Images/triangulo.png'
+
 
 const useStyles = makeStyles({
     root: {
@@ -29,17 +29,17 @@ export default function Parcerias() {
     return (
         <div className='entire-page' >
             <Nav />
-            <div className='triangle-bottom-right'/>
+            <div className='triangle-bottom-right-parcerias'/>
             <Grid container className='big-container'>
                 <Grid item style={{
                     marginTop: "7vh",
                     marginRight: "130vh",
                     fontSize: "75px",
                     fontFamily: "roboto",
-                    textDecoration: "underline"
+                    textDecoration: "underline",
                 }}>Parcerias</Grid>
 
-                {/* <img src={Triangulao} id='triangulao'/> */}
+
                 
 
                 <Grid container id='cards-grid'>
@@ -210,3 +210,5 @@ export default function Parcerias() {
         </div>
     );
 }
+
+
