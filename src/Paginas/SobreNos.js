@@ -11,6 +11,10 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import './styles.css'
 import 'fontsource-roboto'
+import Bruno from '../Images/bruno.jpeg'
+import Pedro from '../Images/pedro.jpeg'
+import Wesley from '../Images/wesley.jpeg'
+import Zinho from '../Images/zinho.jpeg'
 
 const useStyles = makeStyles({
     root: {
@@ -48,7 +52,7 @@ export default function SobreNos() {
                             <CardActionArea>
                                 <CardMedia
                                     className={classes.media}
-                                    image=""
+                                    image={Bruno}
                                     title="Empresa 1"
                                 />
                                 <CardContent>
@@ -88,7 +92,7 @@ export default function SobreNos() {
                             <CardActionArea>
                                 <CardMedia
                                     className={classes.media}
-                                    image=""
+                                    image={Zinho}
                                     title="Empresa 3"
                                 />
                                 <CardContent>
@@ -112,7 +116,7 @@ export default function SobreNos() {
                             <CardActionArea>
                                 <CardMedia
                                     className={classes.media}
-                                    image=""
+                                    image={Pedro}
                                     title="Empresa 4"
                                 />
                                 <CardContent>
@@ -132,7 +136,7 @@ export default function SobreNos() {
                             <CardActionArea>
                                 <CardMedia
                                     className={classes.media}
-                                    image=""
+                                    image={Wesley}
                                     title="Empresa 5"
                                 />
                                 <CardContent>
