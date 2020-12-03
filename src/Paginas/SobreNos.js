@@ -15,6 +15,8 @@ import Bruno from '../Images/bruno.jpeg'
 import Pedro from '../Images/pedro.jpeg'
 import Wesley from '../Images/wesley.jpeg'
 import Zinho from '../Images/zinho.jpeg'
+import Tom from '../Images/Tom.png'
+import Soussa from '../Images/Soussa.jpg'
 
 const useStyles = makeStyles({
     root: {
@@ -60,7 +62,7 @@ export default function SobreNos() {
                                         Bruno Racobaldo
                               </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        Aqui terá a descrição com as informações da Empresa 1
+                                        Engenharia de Computação - Senai CIMATEC; 2° Semestre; 18 Anos.
                              </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -72,7 +74,7 @@ export default function SobreNos() {
                             <CardActionArea>
                                 <CardMedia
                                     className={classes.media}
-                                    image=""
+                                    image={Tom}
                                     title="Empresa 2"
                                 />
                                 <CardContent>
@@ -80,7 +82,7 @@ export default function SobreNos() {
                                         Daniel Marinho
                               </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        Aqui terá a descrição com as informações da Empresa 2
+                                    Engenharia de Computação - Senai CIMATEC; 2° Semestre; 19 Anos.
                              </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -100,7 +102,7 @@ export default function SobreNos() {
                                         José Auto
                               </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        Aqui terá a descrição com as informações da Empresa 3
+                                        Engenharia de Computação - Senai CIMATEC; 2° Semestre; 18 Anos.
                              </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -124,7 +126,7 @@ export default function SobreNos() {
                                         Pedro Caria
                               </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        Aqui terá a descrição com as informações da Empresa 4
+                                    Engenharia de Computação - Senai CIMATEC; 2° Semestre; 18 Anos.
                              </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -144,7 +146,7 @@ export default function SobreNos() {
                                         Wesley Bispo
                               </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        Aqui terá a descrição com as informações da Empresa 5
+                                    Engenharia de Computação - Senai CIMATEC; 2° Semestre; 22 Anos.
                              </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -156,12 +158,12 @@ export default function SobreNos() {
                             <CardActionArea>
                                 <CardMedia
                                     className={classes.media}
-                                    image=""
+                                    image={Soussa}
                                     title="Empresa 6"
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
-                                        Márcio Soussa <br/> (Coordenador)
+                                        Márcio Soussa <br/> (Orientador)
                               </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
                                         Aqui terá a descrição com as informações da Empresa 6

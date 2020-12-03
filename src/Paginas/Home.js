@@ -26,7 +26,7 @@ export default function Home() {
                 }}>Home</Grid>
 
 
-                <Grid item class="boxmodel" style={{ fontSize: 25 }}>
+                <Grid item class="boxmodel" style={{ fontSize: 35 }}>
                     <p class="box_content" >
                         Os idealizadores e responsáveis pela criação e desenvolvimento do website são os estudantes de Engenharia de Computação, do Centro Universitário Senai CIMATEC, atualmente cursando o segundo semestre do bacharelado.  O projeto surgiu através do componente curricular de Desafio Pesquisador, tendo como responsável pela disciplina o Prof. Danilo Hansen. A criação do trabalho foi orientada pelo Prof.  Márcio Soussa. O trabalho proposto tem como objetivo trabalhar com o descarte de lixo eletrônico na cidade de Salvador, que, de acordo com a percepção dos discentes, não apresentava uma organização de informações que facilitasse a comunicação entre a população e os centros de coleta ou com as empresas privadas responsáveis por realizar tais medidas.
                     </p>
